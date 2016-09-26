@@ -1,0 +1,112 @@
+ .header {
+   font-family: 'Shadows Into Light',cursive;
+   font-size:20px;
+   text-align: center;
+   background-color: rgb(200, 203, 208);
+   margin-top: -20px;
+ }
+
+ h2 {
+   margin-top: -20px;
+ }
+
+h3 {
+  margin-top: -20px;
+}
+
+.mainbox {
+  width:700px;
+  height:300px;
+  display:block;
+  border: 3px  rgb(241, 233, 244);
+  margin-left: 300px;
+  margin-right: 300px;
+}
+
+.smallbox {
+ width:200px;
+ height:130px;
+ /*border: 2px solid black;*/
+ /*border-top: 2px solid black;*/
+ display:inline-block;
+  float:left;
+  font-size: 100px;
+  color:black;
+  font-family: 'Shadows Into Light',cursive;
+   text-align: center;
+   cursor: pointer;
+}
+
+.smallbox.clickX {
+  background-color: rgb(176, 106, 180)
+}
+
+.smallbox.clickO {
+  background-color: rgb(192, 224, 167)
+}
+
+#Box0 {
+  border-bottom: 6px solid rgb(13, 134, 142) ;
+  border-right: 6px solid rgb(13, 134, 142);
+
+
+}
+#Box1 {
+  border-bottom: 6px solid rgb(13, 134, 142) ;
+  border-right: 6px solid rgb(13, 134, 142);
+
+}
+#Box2 {
+  border-bottom: 6px solid rgb(13, 134, 142) ;
+  /*border-right: 6px solid rgb(13, 134, 142);*/
+
+}
+#Box3 {
+  border-bottom: 6px solid rgb(13, 134, 142) ;
+  border-right: 6px solid rgb(13, 134, 142);
+
+}
+#Box4 {
+  border-bottom: 6px solid rgb(13, 134, 142) ;
+  border-right: 6px solid rgb(13, 134, 142);
+
+}
+#Box5 {
+  border-bottom: 6px solid rgb(13, 134, 142) ;
+  /*border-right: 6px solid rgb(13, 134, 142);*/
+
+}
+#Box6 {
+  /*border-bottom: 6px solid rgb(13, 134, 142) ;*/
+  border-right: 6px solid rgb(13, 134, 142);
+
+}
+#Box7 {
+  /*border-bottom: 6px solid rgb(13, 134, 142) ;*/
+  border-right: 6px solid rgb(13, 134, 142);
+
+}
+#Box8 {
+  /*border-bottom: 6px solid rgb(13, 134, 142) ;*/
+  /*border-right: 6px solid rgb(13, 134, 142);*/
+
+}
+
+button {
+  width:200px;
+  height:50px;
+  font-family: 'Shadows Into Light',cursive;
+  font-weight: bolder;
+  font-size: 25px;
+  border-style: hidden;
+  background-color: rgba(193, 25, 151, 0.9);
+  margin-bottom: 80px;
+  display:block;
+  transition-duration: 0.4s;
+  cursor: default;
+}
+/*colour change when hover*/
+button:hover {
+    background-color: #4CAF50;
+    color: white;
+  }
