@@ -16,6 +16,7 @@ for (var i = 0; i < smallbox.length; i++) {
 
     // 0 is always false. If current player === 0 is false, else statement will run.
     // box will show O. += ensures that every move will add 1 so that we will get X and O
+    // sets what happens if user clicks the boxes
     if (currentPlayer === 0 || currentPlayer % 2 === 0) {
       this.classList.add('clickX')
       target.innerHTML = 'X'
@@ -27,11 +28,18 @@ for (var i = 0; i < smallbox.length; i++) {
     }
 
 
-    // check win condition
-    
+    // set up if/else statements to assign a value to each box
+
+  Box1.addEventListener('click' function(event)){
+
+    if (currentPlayer === 0 || currentPlayer % 2 ===0) {
+      Box1=1;
+    }
+    else {
+      Box1=2;
+    }
   }
-  )
-}
+
 
 // Setting a value to each box with if/else statements
 
