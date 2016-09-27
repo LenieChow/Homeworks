@@ -38,11 +38,12 @@ h3 {
 }
 
 .smallbox.clickX {
-  background-color: rgb(176, 106, 180)
+  background-color: rgba(176, 106, 180, 0.4)
 }
 
 .smallbox.clickO {
   background-color: rgb(192, 224, 167)
+
 }
 
 #Box0 {
